@@ -1,0 +1,51 @@
+{
+    "name": "eyesup-purple-theme",
+    "displayName": "EyesUp (Teams Purple)",
+    "description": "Eyes up, keep searching for the one.",
+    "publisher": "EyesUp",
+    "author": {
+        "name": "Zach Nichter"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "EyesUp Theme (Light - Teams Purple)",
+                "uiTheme": "vs",
+                "path": "./themes/eyesup-teams-purple-theme-light.json"
+            },
+            {
+                "label": "EyesUp Theme (Dark - Teams Purple)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/eyesup-teams-purple-theme-dark.json"
+            }
+
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "bugs": {
+        "url": ""
+    },
+    "galleryBanner": {
+        "color": "#585892",
+        "theme": "light"
+    },
+    "icon": "images/icon/eu-logo-orange-128x128.png",
+    "keywords": [
+        "eyesup",
+        "purple",
+        "theme",
+        "light theme",
+        "teams theme"
+    ]
+
+}
